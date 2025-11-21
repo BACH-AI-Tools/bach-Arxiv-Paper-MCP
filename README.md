@@ -2,6 +2,8 @@
 
 一个基于 arXiv 的论文检索与内容解析工具。支持 Model Context Protocol (MCP) 标准，提供论文搜索、PDF链接获取和内容解析功能。
 
+> **基于原项目**: 此项目基于 [Arxiv-Paper-MCP](https://github.com/yzfly/Arxiv-Paper-MCP) 修改而来
+
 ## 功能特性
 
 * 🔍 **arXiv 论文智能搜索**：关键词检索，快速定位你关心的论文
@@ -35,7 +37,7 @@ arxiv-paper-mcp
   "mcpServers": {
     "arxiv-paper-mcp": {
       "command": "npx",
-      "args": ["-y", "@langgpt/arxiv-paper-mcp@latest"]
+      "args": ["-y", "bach-arxiv-paper-mcp@latest"]
     }
   }
 }
